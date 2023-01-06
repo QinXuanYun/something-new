@@ -19,6 +19,6 @@ temps = input("\n") #这个功能是直接执行py文件（默认cmd结合python
 
 import pyperclip as pc
 
-a = input("")
-b = a.replace(" ", "")
+a = input("")     
+b = a.replace(" ", "")     
 pc.copy(b)
