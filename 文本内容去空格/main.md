@@ -10,3 +10,15 @@ c = pc.paste()  # 通过黏贴剪切板操作将内容赋值给c
 print(c)  # 输出c（实际c就是b）     
 print(type(c))     
 temps = input("\n") #这个功能是直接执行py文件（默认cmd结合python.exe）时保留窗口）虽然需要的内容已经复制到剪切板了，没啥用     
+
+---
+
+## 精简版
+
+---
+
+import pyperclip as pc
+
+a = input("")
+b = a.replace(" ", "")
+pc.copy(b)
