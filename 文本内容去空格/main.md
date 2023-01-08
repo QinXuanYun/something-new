@@ -9,7 +9,11 @@ pc.copy(b)  # 通过上述模块实现将b复制到剪切板
 c = pc.paste()  # 通过黏贴剪切板操作将内容赋值给c     
 print(c)  # 输出c（实际c就是b）     
 print(type(c))     
-temps = input("\n") #这个功能是直接执行py文件（默认cmd结合python.exe）时保留窗口）虽然需要的内容已经复制到剪切板了，没啥用     
+temps = input("\n") #这个功能是直接执行py文件（默认cmd结合python.exe）时保留窗口）虽然需要的内容已经复制到剪切板了，没啥用(我是这么理解的，实际作用暂未探究)
+
+---
+
+Todo:探究"temps = input("\n")"的作用及……
 
 ---
 
